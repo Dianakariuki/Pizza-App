@@ -1,6 +1,13 @@
 #nav-one{
     height: 100px;
+  
 }
 #content{
     padding: 60px;
+}
+ul li{
+    margin-left: 30px;
+    list-style-type: none;
+    color:white;
+    font-weight: bold;
 }

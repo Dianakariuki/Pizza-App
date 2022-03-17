@@ -48,3 +48,15 @@ ul li{
 position: relative;
 top:200px ;
 }
+.sec-2{
+    
+    text-align: center; 
+    font-family: "Robota Slab",serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px
+}
+#text3{
+    padding: 50px;
+}

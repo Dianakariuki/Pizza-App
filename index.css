@@ -11,3 +11,40 @@ ul li{
     color:white;
     font-weight: bold;
 }
+.sec-1{
+    background-image: url(Assets/dark.jpg);
+    background-attachment: fixed;
+    height: 800px;
+    width: auto;
+   
+    background-repeat: no-repeat;
+
+
+}
+#text1{
+   text-align: center; 
+   font-family: "Robota Slab",sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 100px;
+ 
+   color: #ffffff;
+   padding-bottom: 100px;
+   
+
+}
+#text2{
+    text-align: center; 
+    font-family: "Robota Slab",serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #ffffff;
+    padding-bottom:50px;
+ 
+}
+#text{
+position: relative;
+top:200px ;
+}

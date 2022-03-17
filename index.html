@@ -90,17 +90,51 @@
 
       <section class="sec-3">
         <div class="container mt-3">
-            <h2>Data List</h2>
-            <form action="/action_page.php">
-              <label for="browser" class="form-label">Choose your browser from the list:</label>
-              <input class="form-control" list="browsers" name="browser" id="browser">
-              <datalist id="browsers">
-                <option value="Edge">
-                <option value="Firefox">
-                <option value="Chrome">
-                <option value="Opera">
-                <option value="Safari">
-              </datalist>    
+        <form action="/action_page.php">
+             <!-- flavor--> 
+              <label for="browser" class="form-label">Select your preffered flavor </label>
+              <input class="form-control" list="flavor" name="flavor" id="flavor">
+              <datalist id="flavor">
+                <option value="Chicago pizza">
+                <option value="Raspberry pizza">
+                <option value="Perperoni pizza">
+                <option value="Chicken Alfredo pizza">
+                <option value="Buffallo pizza">
+              </datalist> 
+              <!-- size--> 
+              <label for="browser" class="form-label">Select your preffered flavor </label>
+              <input class="form-control" list="flavor" name="flavor" id="flavor">
+              <datalist id="flavor">
+                <option value="Chicago pizza">
+                <option value="Raspberry pizza">
+                <option value="Perperoni pizza">
+                <option value="Chicken Alfredo pizza">
+                <option value="Buffallo pizza">
+              </datalist>
+              <!--crust-->
+              <label for="browser" class="form-label">Select your preffered flavor </label>
+              <input class="form-control" list="flavor" name="flavor" id="flavor">
+              <datalist id="flavor">
+                <option value="Chicago pizza">
+                <option value="Raspberry pizza">
+                <option value="Perperoni pizza">
+                <option value="Chicken Alfredo pizza">
+                <option value="Buffallo pizza">
+              </datalist>
+              <!--Toppings-->
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="check1" name="option1" value="something" checked>
+                <label class="form-check-label" for="check1">Option 1</label>
+              </div>
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="check2" name="option2" value="something">
+                <label class="form-check-label" for="check2">Option 2</label>
+              </div>
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="check2" name="option2" value="something">
+                <label class="form-check-label" for="check2">Option 2</label>
+              </div>
+
               <button type="submit" class="btn btn-primary mt-3">Submit</button>
             </form>
           </div>   

@@ -64,6 +64,16 @@ top:200px ;
 margin-top: 70px;
 }
 .sec-4{
-    background-color:#cc0000;
+    background-color:#f5424e;
+    margin-top: 70px;
+    text-align: center;
+    font-family: "Robota Slab",serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px
 }
-
+#contact{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}

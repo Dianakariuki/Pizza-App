@@ -27,7 +27,7 @@ ul li{
    font-style: normal;
    font-weight: 400;
    font-size: 100px;
- 
+   animation-name: bounce;
    color: #ffffff;
    padding-bottom: 100px;
    
@@ -42,6 +42,7 @@ ul li{
     line-height: 30px;
     color: #ffffff;
     padding-bottom:50px;
+    
  
 }
 #text{

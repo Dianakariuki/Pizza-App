@@ -1,22 +1,13 @@
 //bussiness logic
-var price , crust_price, topping_price ;
-let total = 0;
-function Getpizza( name,size,crust,topping, total ){
-  this.name = name;
-  this.size = size;
-  this.crust = crust;
-  this.topping = topping;
-  this.total = total;
-}
-$(document).ready(function(){
-    $("button.proceed").click(function(event){
-        let pname = $("#flavor option:selected").val();
-        let psize = $("#size option:selected").val();
-        let pcrust = $("#crust option:selected").val();
-        let ptopping = [];
-        $.each($("input[name='toppings']:checked"), function(){            
-            ptopping.push($(this).val());
-        });
-        console.log(ptopping.join(", "));
-})
-});
+document.getElementById("placeOrder").addEventListener("click", placeOrder);
+
+/**
+ * gets form values
+ * calculates prices
+ * produces output
+ */
+ function placeOrder() {
+    // get form values
+    var numPizzas = document.getElementById("numPizzas").value;
+    var typePizza = document.getElementById("typePizza").value;
+    var deliveryCity = document.getElementById("deliveryCity").value;

@@ -121,6 +121,8 @@
                 <option value="Glutten-Free">
                
               </datalist>
+
+            
               <!--Toppings-->
               <div class="form-check">
                 <input type="checkbox" class="form-check-input" id="check1" name="toppings" value="something" checked>
@@ -134,6 +136,17 @@
                 <input type="checkbox" class="form-check-input" id="check2" name="toppings" value="something">
                 <label class="form-check-label" for="check3">Black olives</label>
               </div>
+<!--Number of pizzas-->
+              <label>How many pizzas do you want?
+              <input type="number" id="numPizzas" />
+                  </label>
+                <!--DELIVERY-->
+                <label for="size" class="form-label">Select delivery destination </label>
+                <input class="form-control" list="sizes" name="delivery" id="deliverCity">
+                <datalist id="delivery">
+                  <option value="Nairobi">
+                  <option value="kenya">
+                  <option value="kahawa">
 
               <button type="submit" id="placeOrder" class="btn btn-outline-dark mt-3">Placeorder</button>
             </form>

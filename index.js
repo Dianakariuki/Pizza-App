@@ -8,6 +8,16 @@ document.getElementById("placeOrder").addEventListener("click", placeOrder);
  */
  function placeOrder() {
     // get form values
-    var numPizzas = document.getElementById("numPizzas").value;
-    var typePizza = document.getElementById("typePizza").value;
+    var flavPizzas = document.getElementById("flavor").value;
+    var sizePizza = document.getElementById("size").value;
+    var sizePizza = document.getElementById("size").value;
+
     var deliveryCity = document.getElementById("deliveryCity").value;
+
+    
+  // get the pizza price
+  var orderPrice = calculatePrice(numPizzas, typePizza);
+
+
+
+ }

@@ -22,4 +22,8 @@ document.getElementById("placeOrder").addEventListener("click", placeOrder);
  // get the delivery price
  var deliveryPrice = calculateDelivery(orderPrice, deliveryCity);
 
+  // create the output
+  var theOutput = "<p>Thank you for your order.</p>";
+  
+  theOutput += "<p>Your total is: $" + (orderPrice + deliveryPrice);
  }

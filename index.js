@@ -1,5 +1,6 @@
 
 
+//constructors and propotypes
 
 class Getpizza {
     constructor(name, size, crust, toppings, deliveryCity, total) {

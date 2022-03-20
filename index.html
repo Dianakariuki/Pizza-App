@@ -89,9 +89,9 @@
       </section>
 
       <section class="sec-3">
-        <div class="container mt-3" >
+        <div class="container " >
             <h1 id="order">ORDER YOUR FAVORITE PIZZA</h1>
-        <form>
+        <form id="form2">
              <!-- flavor--> 
               <label for="flavor" class="form-label">Select your preffered flavor </label>
               <input class="form-control" list="flavors" name="flavor" id="flavor">
@@ -102,54 +102,56 @@
                 <option value="Chicken Alfredo pizza">
                 <option value="Buffallo pizza">
               </datalist> 
+<br>
               <!-- size--> 
-              <label for="size" class="form-label">Select your preffered size </label>
-              <input class="form-control" list="sizes" name="size" id="size">
-              <datalist id="sizes">
-                <option value="small">
-                <option value="medium">
-                <option value="large">
-              
-              </datalist>
-    
+              <label for="select">Select Size</label>
+                    <select class="browser-default custom-select custom-select-md mb-3" id="sizes">
+                        
+                        <option value="large">Large -- ksh. 1200</option>
+                        <option value="medium">Medium -- ksh. 800</option>
+                        <option value="small">Small -- ksh. 500</option>
+                    </select>
+     <br>
               <!--crust-->
-              <label for="crust" class="form-label">Select your favorite crust</label>
-              <input class="form-control" list="crusts" name="crust" id="crust">
-              <datalist id="crusts">
-                <option value="Crispy">
-                <option value="Stuffed">
-                <option value="Glutten-Free">
-               
-              </datalist>
+              <label for="Toppings">Choose your favorite Toppings!</label>
+                    <select class="browser-default custom-select custom-select-md mb-3" id="crusts">
+                        
+                        <option value="Mushroom">Mushroom -- ksh. 50</option>
+                        <option value="Extra-olive">Extra-olive -- sh. 50</option>
+                        <option value="Sausage">Sausage --ksh.50</option>
+                        <option value="Bacon">Bacon--ksh.50</option>
 
-            
+                    </select>
+<br>
               <!--Toppings-->
-              <div class="form-check">
-                <input type="checkbox" class="form-check-input" id="check1" name="toppings" value="something" checked>
-                <label class="form-check-label" for="check1">Extra cheese</label>
-              </div>
-              <div class="form-check">
-                <input type="checkbox" class="form-check-input" id="check2" name="toppings" value="something">
-                <label class="form-check-label" for="check2">Pepperoni</label>
-              </div>
-              <div class="form-check">
-                <input type="checkbox" class="form-check-input" id="check2" name="toppings" value="something">
-                <label class="form-check-label" for="check3">Black olives</label>
-              </div>
-<!--Number of pizzas-->
+              <label for="crust">Choose your favorite crust!</label>
+                    <select class="browser-default custom-select custom-select-md mb-3" id="toppings">
+                       
+                        <option value="Crispy">Crispy -- sh. 100</option>
+                        <option value="Stuffed">Stuffed -- sh. 150</option>
+                        <option value="Gluten-free">Gluten-free-- sh. 200</option>
+                    </select>
+              <br>
+              <!--Number of pizzas-->
               <label>How many pizzas do you want?
-              <input type="number" id="numPizzas" />
+              <input type="number" id="numPizzas"/>
                   </label>
+                  <br>
+                  <br>
                 <!--DELIVERY-->
-                <label for="size" class="form-label">Select delivery destination </label>
-                <input class="form-control" list="sizes" name="delivery" id="deliverCity">
-                <datalist id="delivery">
-                  <option value="Nairobi">
-                  <option value="kenya">
-                  <option value="kahawa">
-
-              <button type="submit" id="placeOrder" class="btn btn-outline-dark mt-3">Placeorder</button>
-            </form>
+                <label for="delivery">Choose your delivery destination</label>
+                    <select class="browser-default custom-select custom-select-md mb-3" id="delivery">
+                        
+                        <option value="Waiyaki-way">Waiyaki-way -- sh. 100</option>
+                        <option value="Thika-road">Thika-road -- sh. 150</option>
+                        <option value="Eastern-Bypass">Thika-road-- sh. 200</option>
+                        <option value="Western-Bypass">Western-Bypass-- sh. 300</option>
+                    </select>
+<br>
+                    <button type="submit"id="submit" class="btn btn-danger">Submit</button>
+ </form>
+ 
+                       
           </div>   
       </section>
 

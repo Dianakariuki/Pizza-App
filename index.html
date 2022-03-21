@@ -26,16 +26,16 @@
             </a>
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="#text">HOME</a>
+                    <a id="one" class=" nav-link" href="#text">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a id="one" class="nav-link" href="#text3">OUR BEST</a>
+                </li>
+                <li class="nav-item">
+                    <a id="one" class="nav-link" href="#flavor">ORDER</a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link" href="#text3">OUR BEST</a>
-                </li>
-                <li class="nav-item ">
-                    <a class="nav-link" href="#flavor">ORDER</a>
-                </li>
-                <li class="nav-item ">
-                    <a class="nav-link" href="#contact">CONTACT</a>
+                    <a id="one" class="nav-link" href="#contact">CONTACT</a>
                 </li>
             </ul>
         </div>
@@ -45,11 +45,11 @@
 
         <div class="container" id="text">
             <div class="row">
-                <div class="col-sm-6 "> <img style="border:none; " id="img1" src="Assets/inn.jpeg" pulse></div>
+                <div class="col-sm-6"> <img style="border:none;" id="img1" src="Assets/inn.jpeg" pulse></div>
 
-                <div class="col-sm-6 ">
+                <div class="col-sm-6">
                     <h1 id="text1" gold-text floater pulse> THE PIZZERIA HUT</h1>
-                    <p id="text2">"Scratch-made pizza goodness,Perfect slice perfect price "</p>
+                    <p id="text2">"Scratch-made pizza goodness,Perfect slice perfect price"</p>
                 </div>
             </div>
         </div>
@@ -63,14 +63,14 @@
                     <div class="card" style="width:400px">
                         <img class="card-img-top" src="Assets/chicago.jpeg" alt="Card image">
                         <div class="card-body">
-                            <h4 class="card-title ">Chicago pizza</h4>
+                            <h4 class="card-title">Chicago pizza</h4>
 
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="card" style="width:400px">
-                        <img class="card-img-top" src="Assets/perperoni pizza.jpeg" alt="Card image">
+                        <img class="card-img-top" src="Assets/perperoni pizza.jpeg " alt="Card image">
                         <div class="card-body">
                             <h4 class="card-title">Perperoni Pizza</h4>
 
@@ -110,17 +110,17 @@
                 <!-- size-->
                 <label for="select">Select Size</label>
                 <br>
-                <select class="browser-default custom-select custom-select-md mb-3" id="sizes">
+                <select class="browser-default custom-select custom-select-md mb-3" id="size">
                         
-                        <option value="large">Large -- ksh. 1200</option>
-                        <option value="medium">Medium -- ksh. 800</option>
-                        <option value="small">Small -- ksh. 500</option>
+                        <option value="large">large -- ksh. 1200</option>
+                        <option value="medium">medium -- ksh. 800</option>
+                        <option value="small">small -- ksh. 500</option>
                     </select>
                 <br>
                 <!--crust-->
                 <label for="Toppings">Choose your favorite Toppings!</label>
                 <br>
-                <select class="browser-default custom-select custom-select-md mb-3" id="crusts">
+                <select class="browser-default custom-select custom-select-md mb-3" id="toppings">
                         
                         <option value="Mushroom">Mushroom -- ksh. 50</option>
                         <option value="Extra-olive">Extra-olive -- sh. 50</option>
@@ -132,7 +132,7 @@
                 <!--Toppings-->
                 <label for="crust">Choose your favorite crust!</label>
                 <br>
-                <select class="browser-default custom-select custom-select-md mb-3" id="toppings">
+                <select class="browser-default custom-select custom-select-md mb-3" id="crusts">
                        
                         <option value="Crispy">Crispy -- sh. 100</option>
                         <option value="Stuffed">Stuffed -- sh. 150</option>
@@ -141,7 +141,7 @@
                 <br>
                 <!--Number of pizzas-->
                 <label>How many pizzas do you want?
-              <input type="number" id="numPizzas"/>
+              <input type="number" id="number"/>
                   </label>
                 <br>
                 <br>

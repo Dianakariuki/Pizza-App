@@ -1,19 +1,3 @@
-$(document).ready(function() {
-    $("#form2").submit(function(event) {
-        event.preventDefault();
-        var size = $("input#sizes option:selected").val();
-        var crust = $("input#crusts option:selected").val();
-        var toppings = $("input#toppings option:selected").val();
-        var numPizza = $("#numPizzas").val();
-        var deliveryCity = $("input#delivery option:selected").val();
-
-        var newGetPizza = new Getpizza(size, crust, toppings, numPizza, deliveryCity);
-        var totalPrice = parseInt((newGetPizza.getSizePrice() + newGetPizza.getCrustPrice() + newGetPizza.gettoppingsPrice() + newGetPizza.getdeliveryCity())) * numPizza;
-        alert("Your total is" + totalPrice)
-
-    });
-
-});
 //constructors and propotypes
 
 class Getpizza {
@@ -49,7 +33,7 @@ Getpizza.prototype.gettoppingsPrice = function() {
         console.log(50);
     } else {
 
-        console.log("Chose an option")
+        console.log("Choose an option")
     }
 };
 Getpizza.prototype.getCrustPrice = function() {
@@ -82,3 +66,19 @@ Getpizza.prototype.getdeliveryCity = function() {
         console.log(300);
     }
 };
+$(document).ready(function() {
+    $("#form2").submit(function(event) {
+        event.preventDefault();
+        var size = $("input#sizes option:selected").val();
+        var crust = $("input#crusts option:selected").val();
+        var toppings = $("input#toppings option:selected").val();
+        var numPizza = $("#numPizzas").val();
+        var deliveryCity = $("input#delivery option:selected").val();
+
+        var newGetPizza = new Getpizza(size, crust, toppings, numPizza, deliveryCity);
+        var totalPrice = parseInt((newGetPizza.getSizePrice() + newGetPizza.getCrustPrice() + newGetPizza.gettoppingsPrice() + newGetPizza.getdeliveryCity())) * numPizza;
+        alert("Your total is" + totalPrice)
+
+    });
+
+});

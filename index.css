@@ -1,102 +1,111 @@
-#nav-one{
+#nav-one {
     height: 100px;
-  
 }
-#content{
+
+#content {
     padding: 60px;
 }
-ul li{
+
+ul li {
     margin-left: 30px;
     list-style-type: none;
-    color:white;
+    color: white;
     font-weight: bold;
 }
-.sec-1{
+
+.sec-1 {
     background-image: url(Assets/dark.jpg);
     background-attachment: fixed;
     height: 800px;
     width: auto;
-   
     background-repeat: no-repeat;
-
-
 }
-#text1{
-   text-align: center; 
-   font-family: "Robota Slab",sans-serif;
-   font-style: normal;
-   font-weight: 400;
-   font-size: 100px;
-   animation-name: bounce;
-   color: #ffffff;
-   padding-bottom: 100px;
-   
 
+#text1 {
+    text-align: center;
+    font-family: "Robota Slab", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    animation-name: bounce;
+    color: #ffffff;
+    padding-bottom: 100px;
 }
-#text2{
-    text-align: center; 
-    font-family: "Robota Slab",serif;
+
+#text2 {
+    text-align: center;
+    font-family: "Robota Slab", serif;
     font-style: italic;
     font-weight: 500;
     font-size: 20px;
     line-height: 30px;
     color: #ffffff;
-    padding-bottom:50px;
-    
- 
+    padding-bottom: 50px;
 }
-#text{
-position: relative;
-top:200px ;
+
+#text {
+    position: relative;
+    top: 200px;
+    color: white;
 }
-.sec-2{
-    
-    text-align: center; 
-    font-family: "Robota Slab",serif;
+
+.sec-2 {
+    text-align: center;
+    font-family: "Robota Slab", serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 30px
 }
-#text3{
+
+#text3 {
     padding: 50px;
 }
-.sec-3{
-margin-top: 70px;
-font-family: "Robota Slab",serif;
-font-style: normal;
 
-
+.sec-3 {
+    margin-top: 70px;
+    font-family: "Robota Slab", serif;
+    font-style: normal;
 }
-#order{
+
+#order {
     text-align: center;
     margin-bottom: 60px;
     margin-top: 60px;
 }
 
-.form2{
+.form2 {
     padding-bottom: 50px;
 }
-.sec-4{
-    background-color:#f5424e;
+
+.sec-4 {
+    background-color: #f5424e;
     margin-top: 70px;
     text-align: center;
-    font-family: "Robota Slab",serif;
+    font-family: "Robota Slab", serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 30px
 }
-#contact{
+
+#contact {
     margin-top: 50px;
     margin-bottom: 50px;
 }
-#map{
+
+#map {
     height: 40px;
     width: auto;
 }
-#sizes,#crusts,#toppings,#delivery,#flavor{
 
+#sizes,
+#crusts,
+#toppings,
+#delivery,
+#flavor {
     width: 500px;
     height: 50px
-};
+}
+
+;
